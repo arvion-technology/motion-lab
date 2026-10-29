@@ -2,7 +2,7 @@
 <img src="docs/demo.gif" alt="Motion Lab gallery with a live stage and 22 animation recipes" width="100%" />
 </div>
 
-<sub>Recorded from the live demo — <a href="docs/demo.mp4">MP4</a> · <a href="docs/screenshot.png">static frame</a></sub>
+<sub>Recorded from the live demo, <a href="docs/demo.mp4">MP4</a> · <a href="docs/screenshot.png">static frame</a></sub>
 
 # Motion Lab
 
@@ -27,15 +27,15 @@ browsers.
 
 ## What it does
 
-- **A live gallery** — 22 recipes in six categories, each rendered from its
+- **A live gallery**: 22 recipes in six categories, each rendered from its
   registry entry with a real preview rather than a thumbnail.
-- **A playground** — every recipe opens with duration and easing controls, a
+- **A playground**: every recipe opens with duration and easing controls, a
   replay button, a reduced-motion toggle, its trigger, its copyable CSS and an
   honest note about when not to use it.
-- **Copy-ready CSS** — snippets use two custom properties (`--motion-dur`,
+- **Copy-ready CSS**: snippets use two custom properties (`--motion-dur`,
   `--motion-ease`), and the playground bakes the current control values into the
   code before you copy it.
-- **Tasteful categories** — reveals, lists, micro-interactions, loading,
+- **Tasteful categories**: reveals, lists, micro-interactions, loading,
   transitions and data. Twenty-two recipes, no filler.
 
 ## Screenshots
@@ -95,7 +95,7 @@ Copy a recipe from the playground, or generate the reduced-motion block once:
 **Recipes are data.** Each entry in `src/recipes.js` carries the CSS, the trigger
 (IntersectionObserver, hover, route change, infinite loop), a note about the
 trade-off, and search keywords. The gallery iterates the registry, so adding a
-recipe means adding one object and one preview rule — not editing the page.
+recipe means adding one object and one preview rule, not editing the page.
 
 **Easing is sampled, not guessed.** `src/easing.js` parses a `cubic-bezier`
 string, validates that the x control points stay in 0..1, and samples the curve by
